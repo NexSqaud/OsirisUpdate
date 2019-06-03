@@ -71,7 +71,10 @@ namespace OsirisUpdater
             {
                 var remote = repo.Network.Remotes["origin"];
                 var refSpecs = remote.FetchRefSpecs.Select(x => x.Specification);
-                Commands.Fetch(repo, remote.Name, refSpecs, null, log);
+                Commands.Pull(repo, new Signature("name", "email@mysite.net", DateTimeOffset.Now), new PullOptions() );
+                config.state = 1;
+                label2.Text = "Updated";
+                //Commands.Fetch(repo, remote.Name, refSpecs, null, log);
             }
         }
 
