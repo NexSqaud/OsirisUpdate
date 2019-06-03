@@ -1,5 +1,5 @@
 # Osiris Updater
-Program for auto update [Osiris](https://github.com/danielkrupinski/Osiris). Writed on C# WinForms.
+Program for fast update [Osiris](https://github.com/danielkrupinski/Osiris). Writed on C# WinForms.
 Requie [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/) and [Inflame Injector](https://github.com/danielkrupinski/Inflame).
 
 # How to use
