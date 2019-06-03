@@ -51,7 +51,7 @@
             this.MinimizeBox = false;
             this.Name = "Form2";
             this.ShowIcon = false;
-            this.Text = "Form2";
+            this.Text = "Please wait";
             this.ResumeLayout(false);
             this.PerformLayout();
 

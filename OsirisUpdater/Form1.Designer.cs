@@ -122,7 +122,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Osiris Updater";
             this.ResumeLayout(false);
             this.PerformLayout();
 
