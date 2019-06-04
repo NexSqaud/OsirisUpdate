@@ -17,7 +17,7 @@ Requie [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/) and [
 * Click **Inject**
 * Select Inflame.exe
 
-For setting inject click **Inject Setting**
+For setting injector click **Inject Setting**
 
 The program saves the state and restores the next time you start it.
 On the next run:
