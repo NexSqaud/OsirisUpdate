@@ -1,4 +1,4 @@
-# Osiris Updater [![C#](https://img.shields.io/badge/language-C%23-brightgreen.svg)](https://ru.wikipedia.org/wiki/C_Sharp) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![License](https://img.shields.io/github/license/NexSqaud/OsirisUpdate.svg)](LICENSE)
+# Osiris Updater [![C#](https://img.shields.io/badge/language-C%23-brightgreen.svg)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![License](https://img.shields.io/github/license/NexSqaud/OsirisUpdate.svg)](LICENSE)
 
 Program for fast update [Osiris](https://github.com/danielkrupinski/Osiris). Writed on C# WinForms.
 Requie [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/) and [Inflame Injector](https://github.com/danielkrupinski/Inflame).
