@@ -32,3 +32,5 @@ Or
 
 * Run game
 * Click **Inject**
+
+If you find grammatical errors, please report this issue.
