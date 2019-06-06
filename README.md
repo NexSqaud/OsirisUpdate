@@ -33,6 +33,20 @@ The program saves the state and restores the next time you start it.
 
 For setting injector click **Inject Setting**
 
+# How to build
 
+* Download files from repository
+* Open OsirisUpdater.sln in Visual Studio
+* Select Release configuration
+* Click Build -> Build Solution (or Ctrl+Shift+B)
+* Wait for compiling
+* Now OsirisUpdater.exe stored in OsirisUpdater/bin/Release/OsirisUpdater.exe 
+
+**Make sure you installed .NET 4.7.2 SDK and .NET 4.6.1 SDK or Targeting Packs** 
+
+# Program files struct:
+* OsirisUpdater.exe - main executable file
+* LibGit2Sharp.dll - git library
+* Newtonsoft.Json.dll - json library
 
 If you find grammatical errors, please report this issue.
