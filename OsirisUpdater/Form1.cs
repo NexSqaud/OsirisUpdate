@@ -143,19 +143,12 @@ namespace OsirisUpdater
                 while (string.IsNullOrEmpty(config.pathToInjector))
                     openFileDialog2.ShowDialog();
             ProcessStartInfo info = new ProcessStartInfo(config.pathToInjector);
-            Process[] processes = Process.GetProcesses();
             string injectTypeStr = "";
             if (config.injectType == 0) injectTypeStr = "-loadlibrary";
             else if (config.injectType == 1) injectTypeStr = "-manual-map";
             else injectTypeStr = "-loadlibrary";
-            foreach (Process proc in processes)
-            {
-                if(proc.ProcessName == "csgo")
-                {
-                    info.Arguments = $"{injectTypeStr} {config.pathToDll} {proc.Id}";
-                }
-            }
-            if (string.IsNullOrEmpty(info.Arguments))
+            info.Arguments = $"{injectTypeStr} {config.pathToDll} csgo.exe";
+            if(Process.GetProcessesByName("csgo.exe").Length == 0)
             {
                 MessageBox.Show("Run game before try inject", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
